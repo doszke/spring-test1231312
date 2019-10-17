@@ -9,7 +9,7 @@ public class MyController {
     @GetMapping({"/"})
     public String sayHello(){
         StringBuilder sb = new StringBuilder();
-        sb.append("<html><head><title>Hello World</title></head><body><h1>Hello world!</h1></body></html>");
+        sb.append("<html><head><title>Hello World</title></head><body><h1>Hello world!</h1><h3>Doszke pozdrawia</h3></body></html>");
         return sb.toString();
     }
 
